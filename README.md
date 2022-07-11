@@ -9,7 +9,16 @@ Why that dump? According to [The Wikimedia documentation about Data-Dumps](https
 
 ## Environemnt
 
+To install all dependencies please consider using [Poetry](https://python-poetry.org/):
+
 ```sh
-conda env create -f environment.yml
-conda activate forschungsseminarenv
+poetry install
 ```
+
+As an alternative use the `requirements.txt` to generate a new environment with your favourite environment-manager. **Note the system environment:**
+
+- Python==3.8.10
+- WSL2 Ubuntu
+- CUDA enabled
+
+To install without CUDA you may need to use the `requirements-nocuda.txt`

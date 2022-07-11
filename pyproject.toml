@@ -24,6 +24,9 @@ jupyter = "^1.0.0"
 datasets = "^2.3.2"
 evaluate = "^0.1.2"
 sklearn = "^0.0"
+spacy = {extras = ["cuda113"], version = "^3.3.1"}
+Wikipedia-API = "^0.5.4"
+mwxml = "^0.3.3"
 
 [tool.poetry.dev-dependencies]
 
