@@ -2,7 +2,7 @@
 
 Die Notebooks zu den beiden Aufgaben sind im `src` Ordner zu finden.
 
-## Environemnt
+## Environment
 
 Um das Python-Environment aufzusetzen empfehlen wir [Poetry](https://python-poetry.org/) zu benutzen:
 
@@ -10,7 +10,7 @@ Um das Python-Environment aufzusetzen empfehlen wir [Poetry](https://python-poet
 poetry install
 ```
 
-Alternativ kann auch aus der `requirements.txt` ein Environment generiert werden. **´Bitte das System-Environment beachten, mit welcher die `requirements.txt` erstellt wurde:**
+Alternativ kann auch aus der `requirements.txt` ein Environment generiert werden. **Bitte das System-Environment beachten, mit welcher die `requirements.txt` erstellt wurde:**
 
 - Python==3.8.10
 - WSL2 Ubuntu
